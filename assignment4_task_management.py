@@ -1,5 +1,8 @@
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Assignment 4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Assignment 4 : Task Management ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# For this assignment, your objective is to create a Python program for a team manager to efficiently manage the team tasks. 
+# The system should allow users to perform the following operations, adding tasks, assigning team members, completing tasks, generating a report with
+# overall and task times The project tasks are organized in a recursive structure.
+    
 def init_tasks():
     return [
         {'id': 1, 'description': "Complete Project Proposal", 'assigned_to': "John Doe", "subtasks": [
