@@ -1,4 +1,9 @@
-#######################################CENG 113 – Programming Basics: Assignment 2######################################
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Assignment 2 : Restaurant Order Management ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# For this assignment, your objective is to create a Python program for restaurant staff to efficiently manage customer orders. 
+# The program should allow employees to collect order details gradually from customers, ultimately generating an invoice that comprehensively 
+# outlines the order specifics along with the total price upon completion.
+# Essential product information is provided in the assignment through the "categories.txt," "products.txt," and "portions.txt" files.
+
 
 #the function prepareInfo for getting items in the text files and store the items according to the selections of user:
 def prepareInfo(file_name, selection=None, check=None):
